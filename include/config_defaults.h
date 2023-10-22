@@ -33,7 +33,7 @@
  * smaller (and faster)!
  */
 #ifndef LOCALE
-#include "locales/en-US.h"
+#include "locales/cn-ZH.h"
 #else
 #include LOCALE
 #endif
@@ -168,7 +168,7 @@
 
 #ifndef CONFIG_DATE_FORMAT
 // possibilities: "mm/dd/yyyy","dd.mm.yyyy" and "yy.mm/dd"
-#define CONFIG_DATE_FORMAT "mm/dd/yyyy"
+#define CONFIG_DATE_FORMAT "yyyy/mm/dd"
 #endif
 
 // Primary timezone POSIX string, you can translate "Europe/Berlin" (-> "CET-1CEST,M3.5.0,M10.5.0/3") to your timezone here: https://github.com/nayarsystems/posix_tz_db/blob/master/zones.csv
