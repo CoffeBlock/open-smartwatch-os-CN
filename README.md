@@ -1,12 +1,14 @@
+# The OSW hardware is not updating anymore but the software is(at least some times)
+
 # HowTo Run
 
 **Please read the documentation on the [website](https://open-smartwatch.github.io/)!**
 
 ## Prerequirements
 
-1. Install [PlatformIO Core](https://docs.platformio.org/en/latest/core/installation.html) or [PlatformIO IDE](https://docs.platformio.org/en/latest/integration/ide/vscode.html#ide-vscode) (which installs PlatformIO core automatically), as well as the packages specified in `scripts/requirements.txt` (e.g. `pip install -r scripts/requirements.txt`).
+1. Install [PlatformIO Core](https://docs.platformio.org/en/latest/core/installation.html) or [PlatformIO IDE](https://docs.platformio.org/en/latest/integration/ide/vscode.html#ide-vscode) (which installs PlatformIO core automatically), as well as the packages specified in `scripts/requirements.txt` (P.S. IDK where the file is.) (e.g. `pip install -r scripts/requirements.txt`).
 2. **For LUA-scripting support (see env:LIGHT_EDITION_DEV_LUA)**: Install [SWIG](http://www.swig.org/Doc4.0/SWIGDocumentation.html#Preface_installation) (also available in most package managers, e.g. `brew install swig` or `apt install swig`)
-3. Then clone this repository:
+3. Then clone the main repository:
     ```bash
     $ git clone --recurse-submodules https://github.com/Open-Smartwatch/open-smartwatch-os.git
     ```
@@ -26,7 +28,7 @@
   <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/actions/workflows/astyle.yml"><img alt="auto-format" src="https://github.com/Open-Smartwatch/open-smartwatch-os/actions/workflows/astyle.yml/badge.svg"></a>
 </p>
 
-The `master` branch is a stable version and the `develop` branch is our beta version. Recommended is, that you upload the `master` branch - except if you want to help us by testing the next release or need (very) new features 😉.
+The `master` branch is a stable version and the `develop` branch is our beta version. Recommended is, that you upload the `master` branch - except if you want to help us by testing the next release or need (very) new features 😉. 
 
 ### Visual Studio Code
 
